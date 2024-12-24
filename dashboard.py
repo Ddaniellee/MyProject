@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load Data
-full_merged = pd.read_csv("dashboard/full_merged.csv")
+full_merged = pd.read_csv("full_merged.csv")
 full_merged['order_purchase_timestamp'] = pd.to_datetime(full_merged['order_purchase_timestamp'])
 
 st.set_page_config(page_title="E-commerce Dashboard", layout="wide")
