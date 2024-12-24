@@ -11,6 +11,7 @@ pip install -r requirements.txt
 ```
 pipenv install
 pipenv shell
+pip install streamlit
 pip install -r requirements.txt
 ```
 
