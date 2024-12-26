@@ -9,8 +9,8 @@ pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal
 ```
-pipenv install
-pipenv shell
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
